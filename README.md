@@ -94,7 +94,7 @@ float32 lidar_y
 float32 lidar_z
 
 float32 distance
-
+roslaunch sensor_fu 
 
 </details>
       
@@ -105,3 +105,6 @@ float32 distance
 4. catkin_make
 
 ## Usage
+roslaunch sensor_fu lidar_yolo.launch 
+
+위의 명령어를 통해 lidar, yolo, lidar_gps 를 실행한다. 
