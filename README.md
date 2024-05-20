@@ -101,8 +101,9 @@ roslaunch sensor_fu
 ## Installation
 1. cd ~/ros1_ws/src
 2. git clone https://github.com/ERP1-Team/LIdar_camera_sensorfusion.git
-3. cd ..
-4. catkin_make
+3. 압축해제 후
+4. cd ..
+5. catkin_make
 
 ## Usage
 roslaunch sensor_fu lidar_yolo.launch 
